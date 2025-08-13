@@ -1,0 +1,56 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node/JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+*.log
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Vite
+qr-attendance-frontend/dist/
+
+# Backend
+qr-attendance-backend/.env
+qr-attendance-backend/.env.local
+qr-attendance-backend/coverage/
+qr-attendance-backend/logs/
+
+# React Native Android
+QRAttendanceScanner/android/.gradle/
+QRAttendanceScanner/android/.idea/
+QRAttendanceScanner/android/local.properties
+QRAttendanceScanner/android/app/build/
+QRAttendanceScanner/android/build/
+QRAttendanceScanner/.gradle/
+QRAttendanceScanner/.idea/
+QRAttendanceScanner/*.iml
+
+# React Native iOS
+QRAttendanceScanner/ios/build/
+QRAttendanceScanner/ios/Pods/
+QRAttendanceScanner/ios/*.xcodeproj/xcuserdata/
+QRAttendanceScanner/ios/*.xcworkspace/xcuserdata/
+
+# RN bundles and artifacts
+QRAttendanceScanner/**/*.packager
+QRAttendanceScanner/**/*.map
+QRAttendanceScanner/**/*.keystore
+QRAttendanceScanner/**/*.jks
+*.apk
+*.aab
+
+# Env
+.env
+.env.*.local
+
+# Misc
+*.orig

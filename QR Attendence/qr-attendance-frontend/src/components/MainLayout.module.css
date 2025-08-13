@@ -1,0 +1,14 @@
+.layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.mainContent {
+  padding: 100px 3rem 3rem 3rem;
+  background: #f8fafc;
+  min-height: 100vh;
+  grid-column: 2 / 3;
+  position: relative;
+}

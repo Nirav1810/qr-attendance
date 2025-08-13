@@ -1,0 +1,34 @@
+.qrContainer {
+  margin-top: 2rem;
+  padding: 2rem;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 2px dashed #d1d5db;
+}
+
+.qrImage {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.qrText {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.loadingText {
+  font-size: 1rem;
+  color: #3b82f6;
+  font-weight: 500;
+}

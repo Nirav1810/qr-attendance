@@ -1,0 +1,41 @@
+.sidebar {
+  width: 280px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #1f2937;
+  color: white;
+  padding-top: 100px;
+  z-index: 900;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.navItem a:hover {
+  color: white;
+  background: #374151;
+  border-left: 3px solid #3b82f6;
+}
+
+.active a {
+  color: white;
+  border-left: 3px solid #3b82f6;
+  background: #374151;
+}
