@@ -34,6 +34,26 @@ QRAttendanceScanner/.gradle/
 QRAttendanceScanner/.idea/
 QRAttendanceScanner/*.iml
 
+# React Native (QRStudentApp)
+QRStudentApp/node_modules/
+QRStudentApp/android/.gradle/
+QRStudentApp/android/.idea/
+QRStudentApp/android/local.properties
+QRStudentApp/android/app/build/
+QRStudentApp/android/build/
+QRStudentApp/.gradle/
+QRStudentApp/.idea/
+QRStudentApp/*.iml
+QRStudentApp/ios/build/
+QRStudentApp/ios/Pods/
+QRStudentApp/ios/*.xcodeproj/xcuserdata/
+QRStudentApp/ios/*.xcworkspace/xcuserdata/
+QRStudentApp/**/*.keystore
+QRStudentApp/**/*.jks
+QRStudentApp/**/*.packager
+QRStudentApp/**/*.map
+QRStudentApp/android/app/src/main/assets/index.android.bundle
+
 # React Native iOS
 QRAttendanceScanner/ios/build/
 QRAttendanceScanner/ios/Pods/
