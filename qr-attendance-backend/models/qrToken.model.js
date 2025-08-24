@@ -11,10 +11,16 @@ const qrTokenSchema = new mongoose.Schema({
     ref: 'Teacher',
     required: true,
   },
+  // Track whether token was used (for verification flow)
+  used: {
+    type: Boolean,
+    default: false,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
-    expires: '10s', 
+    // Extend TTL to avoid frequent 400s during student verification
+    expires: '2m',
   },
 });
 

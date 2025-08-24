@@ -18,6 +18,21 @@ const studentSchema = new mongoose.Schema({
     required: [true, 'Password is required'],
     minlength: 6,
   },
+  // Add field for face image path
+  faceImagePath: {
+    type: String,
+    default: null,
+  },
+  // Store 128-d face descriptor for quick verification
+  faceDescriptor: {
+    type: [Number],
+    default: null,
+  },
+  // Add field to track if face is registered
+  faceRegistered: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 // Hash password before saving
@@ -34,4 +49,5 @@ studentSchema.methods.comparePassword = async function (candidatePassword) {
 };
 
 const Student = mongoose.model('Student', studentSchema);
+
 module.exports = Student;

@@ -21,5 +21,5 @@ const attendanceSchema = new mongoose.Schema({
   },
 });
 
-const AttendanceRecord = mongoose.model('AttendanceRecord', attendanceSchema);
+const AttendanceRecord = mongoose.model('AttendanceRecord', attendanceSchema, 'attendancerecords');
 module.exports = AttendanceRecord;
