@@ -1,6 +1,0 @@
-# Azure App Service deployment configuration
-# This file tells Azure how to run your Node.js app
-
-version: 1
-runtimeStack: "node|18"
-startupCommand: "npm start"
